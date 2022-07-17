@@ -1,0 +1,283 @@
+--setclipboard(tostring(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame)) --หา x y z
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Made by JxcExploitss", "Midnight")
+
+local Tab = Window:NewTab("Auto Piano")
+local Section = Tab:NewSection("Auto Piano")
+Section:NewButton("Faded", "Autoplayf", function()
+    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ [6s] 0 [ts] e [us] t [of] u [4j] 8 [ej] q [tj] e [yh] u
+[8f] w [uf] t [of] u [tf] w [5a] 9 [ra] w [ya] r [wp] 0
+
+[6e] s [es] p [us] p [es] d [4f] 8 [qs] s [qo] f q
+[8t] w t w t [ws] [ts] [ws] [5a] 9 w [ra] [wa] [rp] [ws] u
+[6t] s [es] p [us] p [es] d [4f] u [qs] s [qoh] f q
+[8t] t t s [tus] d [5w] [wy] [wy] f f f
+[6us] 0 [ts] e [us] t [of] u [4sj] 8 [ej] q [tj] [ef] [fh] f
+[8of] w [uf] t [of] u [tf] w [5oa] 9 [ra] w [ya] [rf] [wf] [rf]
+[6us] 0 t e [ud] [td] [od] f [4d] [8s] [es] q t [ef] [yf] f
+[8of] w u t o [us] s [ts] [5oa] [9a] [ra] [ws] u t e w
+f f f [6f] u [ps] e 6 p e s [4qp] o q q
+s [ish] [osh] [f8] u o u 8 [us] [8oh] [uh] [of] 5 d 5
+5 [of] [of] [of] [6f] u [ps] e 6 [es] [us] [ep] [4g] q u q 4 q u
+h [8sf] h [osf] [8h] [osf] h [8of] d g 5 9 w p g w [of] w
+
+[6us] 0 [ts] e [us] [tf] [sfl] [adk] [4sj] 8 [ej] [qp]
+[tj] f [th] d [8of] w [uf] t [oh] [ug] [tf] d [5oa] 9 r [wo]
+[oag] r [wof] d [6us] 0 [ts] e [us] [tf] [sfl] [adk] [4sj] 8 [ej] [qp]
+[tj] [ef] [yh] d [8of] w [uf] t [oh] [ug] [tf] d [5od] 9 r [wo]
+[oag] r [wof] d 6 0 e t o ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nameless9000/RobloxPianoAutoplayer/main/script.lua"))()
+end)
+Section:NewButton("Stop piano", "Auto", function()  
+ -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ e ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nameless9000/RobloxPianoAutoplayer/main/script.lua"))()
+
+end)
+Section:NewButton("Blue bird", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+ 
+shared.scr = [[ f j k [el] t u p [wk] r y [oj] e t u p
+s f j k [el] t u p [wz] r [yl] [oz] 0 [Wx] r u
+O f j k [el] t u p [wk] r y [oj] e y I p
+d j x z 9 [qj] [ex] [yz] 0 [wh] r [uh] 6 [8j] [0j] e
+t e t u p |
+f j k [el] [tf] [ul] [pk] w [rj] [yh] [oj] 8 [0s] [wd] [tf]
+u [of] [sf] f [qg] [eh] [tj] [ih] p [sh] [gh] h [0j] [Wk] [rl] [uk]
+O [af] [fj] k [el] [tf] [ul] [pk] w [rj] [yh] [oj] 8 [0s] [wd] [tf]
+u [of] [sf] f [qg] e [tl] i [wk] [rj] y [oh] e [th] [uj] p
+s f j k [ql] e t i p s [fl] - [wk] r-l-y-k-o
+a [fg] [hk] l [0z] w r u o a [fz] [el] t-k-u-j-p
+s [fj] [jl] z [9x] q [ej] [yl] i [pz] d x q e t [ix]
+[pv] s [gc] x [W0ru] | [W0ru] - [W0ru] - [W0ru] [W0ru] |
+[Vxn] f j k [el] t u p [wk] r y [oj] e t u p
+s f j k [el] t u p [wz] r [yl] [oz] 0 [Wx] r u
+O f j k [el] t u p [wk] r y [oj] e y I p
+d j x z 9 [qj] [ex] [yz] 0 [wh] r [uh] 6 [8j] [0j] e
+t [ef] [tj] [uk] [el] t u p [wk] r y [oj] e t u p
+s f j k [el] t u p [wz] r [yl] [oz] 0 [Wx] r u
+O f j k [el] t u p [wk] r y [oj] e y I p
+d j x z 9 [qj] [ex] [yz] 0 [wh] r [uh] 6 [8j] [0j] e
+t [ej] [tx] [uz] 9 [qj] [ex] [yz] 0 [wh] r [uh] 6 [8j] [0j] e
+t [ej] [tx] [uz] q [ej] [tx] [iz] w [rh] y [oh] - [etupj] [etupj] ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nameless9000/RobloxPianoAutoplayer/main/script.lua"))()
+
+end)
+Section:NewButton("Rush E", "Auto", function()
+    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u 6 [80] 3 [80] 3 $ % [6] [80] 3 [80] [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] i [80u] Y [6u] [80p] [3s] [80] [%d] d [90d] d [3d] s [90a] d [6s] s [80s] s [3s] a [80p] s [7a] a [(ea] a [$I] [(ea] [0WO] [3] $ % [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] i [80u] Y [3u] [80p] s [6f] [80j] [3l] [80] [9z] l [qek] z [8l] k [0ej] l [7k] j [9qH] k [6j] f [80s] p [30g] f [$Qd] s [%Wa] p [30O] a [6ep] [3] $ % [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] i [80u] Y [6u] [80p] [3s] [80] [7d] d [90d] d [3d] s [90a] d [6s] s [80s] s [3s] a [80p] s [7a] a [(Qa] a [$I] [(Qa] [0WO] [3] $ % [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] i [80u] Y [3u] [80p] s [6f] [80j] [3l] [80] [9z] l [qek] z [8l] k [0ej] l [7k] j [9qH] k [6j] f [80s] p [30g] f [$Qd] s [%Wa] p [30O] a [6ep] [6] 7 * [29d] [qe] S [6d] [qef] [9g] [qef] [6d] [qeg] [8f] [0e] d [6s] [0ed] [8f] [0e] 6 [0es] [0a] [Wr] P [7a] [Wrs] [0d] [Wrs] [7a] [Wrd] [6s] [6p] [8s] [0f] [ej] [0f] [8s] [6p] [29d] [qe] S [6d] [qef] [9g] [qef] [6d] [qeg] [8f] [0e] d [6s] [0ed] [8f] [0e] [6j] [0e] 9 [qed] 7 [qeg] [30f] [18s] [29d] [7a] [6p] [O3uf] [6psj] [3] $ % [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] i [80u] Y [6u] [80p] [3s] [80] [7d] d [90d] d [3d] s [90a] d [6s] s [80s] s [3s] a [80p] s [7a] a [(Qa] a [$I] [(Qa] [0WO] [3] $ % [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] i [80u] Y [3u] [80p] s [6f] [80j] [3l] [80] [9z] l [qek] z [8l] k [0ej] l [7k] j [9WH] k [6j] f [8es] p [7g] f d s [30a] p O a [6ep] [6] [80] 3 [80] 3 $ % [6] [80] 3 [80] [6] [80e] 3 [80e] 3 $ % [6] [80e] 3 [80e] [6] [0et] 3 [0et] [6] [etu] 3 [etu] [6] [tup] 3 [ups] [6] [psf] 3 [sfj] [6f] [ps] [80f] [ps] [3f] [ps] [80f] [ps] [6f] [ps] [80f] [ps] [3f] [ps] [80f] [ps] [6f] [ps] [80f] [ps] [3f] g [80f] D [6f] [80j] [3l] [80] [7fH] z [90fH] z [3fH] z [90fH] z [6fj] l [80fj] l [3fj] l [80fj] l [7DG] k [(QDG] k [$G] [(Qk] [0fWH] [3] $ % [6f] [ps] [80f] [ps] [3f] [ps] [80f] [ps] [6f] [ps] [80f] [ps] [3f] [ps] [80f] [ps] [6f] g [80f] D [3f] [80j] l [6x] [80b] [3m] [80] [9] m [qen] [8m] n [0eb] m [7n] b [9WV] n [6b] x [80l] j [7c] x z l [30k] j H k [6ej] 6 [yd] [ip] S d [ipf] g [ipf] [yd] [ipg] [tf] [up] d s [upd] f [up] t [ups] [ra] [ru] P a [rus] d [rus] [ra] [rud] [es] [ep] [ts] [uf] [epj] [0uf] [8ts] [6ep] [9d] [qe] S [6d] [qef] [9g] [qef] [6d] [qeg] [8f] [0e] d [6s] [0ed] [8f] [0e] [6j] [0e] 9 [qed] 7 [qeg] [30f] [18s] [29d] [7a] [6p] [O3uf] [6psj] [3] [6u] [et] [80u] [et] [3u] [et] [80u] [et] [6u] [et] [80u] [et] [3u] [et] [80u] [et] [6u] [et] [80u] [et] [3u] i [80u] Y [6u] [80p] [3s] [80] [7uO] d [90uO] d [3uO] d [90uO] d [6up] s [80up] s [3up] s [80up] s [7YI] a [(QYI] a [$I] [(Qa] [0uWO] [3] $ % [6u] [et] [80u] [et] [3u] [et] [80u] [et] [6u] [et] [80u] [et] [3u] [et] [80u] [et] [6u] i [80u] Y [3u] [80p] s [6f] [80j] [3l] [80] [9qz] l [ek] z [80l] k [ej] l [79k] j [0H] k [68j] f [0s] p [%0g] f d s [30a] p O a [6ep] [6] [^i] [ET] [*qi] [ET] [4i] [ET] [*qi] [ET] [^i] [ET] [*qi] [ET] [4i] [ET] [*qi] [ET] [^i] [ET] [*qi] [ET] [4i] I [*qi] u [^i] [q*P] [4S] [*q] [8ip] D [(qip] D [4ip] D [(qip] D [i^P] S [qi*P] S [4iP] S [qi*P] S [8uo] s [0wuo] s [5o] [0ws] [qeip] [4] 5 6 [^i] [ET] [*qi] [ET] [4i] [ET] [*qi] [ET] [^i] [ET] [*qi] [ET] [4i] [ET] [*qi] [ET] [^i] I [*qi] u [4i] [q*P] S [^g] [q*J] [4L] [*q] [(Z] L [QEl] Z [*L] l [qEJ] L [8l] J [(ej] l [^J] g [q*S] P [8G] g D S [4qs] P p s [^EP] [^] [(Q] m [q*] m B [(8m] B b m [^*B] c L J [68C] c Z L [4ql] J j l [^EJ] [^JLB] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nameless9000/RobloxPianoAutoplayer/main/script.lua"))()
+
+end)
+Section:NewButton("Fur Elise", "Auto", function()
+    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ fDfDfads [p6] 0e tup [a3] 0W uOa [s6] 0e u fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e
+fDfDfads [p6] 0e tup [a3] 0W uOa [s6] 0e u fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e
+asd [f8] wt ogf [d5] wr ifd [s6] 0e uds [a3] 0 uufuff x DfDfDfDfDfads [p6] 0e tup [a3] 0W uOa [s6] 0e u fDfDfads
+[p6] 0e tup [a3] 0W usa [p6] 0e fDfDfads [p6] 0e tup [a3] 0W uOa [s6] 0e u fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e
+fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e asd [f8] wt ogf [d5] wr ifd [s6] 0e uds [a3] 0 uufuffx DfDfDfDfads [p6] 0e tup
+[a3] 0W uOa [s6] 0e u fDfDfads [p6] 0e tup [a3] 0W usa [6t0p]
+ ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nameless9000/RobloxPianoAutoplayer/main/script.lua"))()
+
+end)
+Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.RightShift, function()
+    Library:ToggleUI()
+end)
+Section:NewButton("kiss the rain", "Autoplayf", function()
+   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ w t y [8y] u u | w t w t y u [5y] o o | w r w o p a [6a] s [tus] t u d d f d s [3a] w r w 3
+s a o [qo] p p | t i t o i [3i] o o
+w r w t y [9u] i [eyi] e y e o i [5u] w r i u [5y] w t y [8y] u u | w t w t y u [5y] o o | w r w o p a [6a] s [tus] t u d d f d s [3a] w r w 3
+s a o [qo] p p | t i t o i [3i] o o
+w r w t y [9u] i [eyi] e [5t] 9 r
+[8t] 0 w t u t u o [qp] t i t q r t p [3o] w r w 6 r t o [9o] i [wyi] u [5u] y
+w t y [8y] u u | w 8 t u o [qp] t u t 7 a a p [3o] w r u i [6o] i u
+[9i] w o w [9p] t a s [wf] y o y [wd] w t y [8y] u u | w t w t y u [5y] o o | w r w o p a [6a] s [tus] t u d d f d s [3a] w r w 3
+s a o [qo] p p | t i t o i [3i] o o
+w r w t y [9u] i [eyi] e [5t] 9 r [8t] 0 w t u
+s a o [qo] p p | t i t o i [3i] o o | w r w t y [9u] i i
+e [5t] 9 r [8t] 0 w t 8 0 w t u
+ ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nameless9000/RobloxPianoAutoplayer/main/script.lua"))()
+
+end)
+Section:NewButton("Enemy Imagine dragons transition 2", "Auto", function()
+ -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ [4psgj] 
+[O3] 
+[Hf] f j f d 
+d p [4is] s 8 
+s s p e 8 p [4is] s 8 s s [ep] 
+8 p a [30u] a a a [WO] 7 
+O [30ua] a 7 a a O [W7] O [4is] 
+s 8 s s [ep] 8 p [4s] i s 8 s 
+[ep] 8 p a 3 7 a a [WO] 
+7 O [3ua] a 7 a a [WO] 7 W 
+s [4pj] 8 [osh] e 8 [4isg] 8 
+[ets] [Ouf] 3 7 W 
+[Oyd] 7 3 7 W [pj] 7 
+[4s] [pj] 8 [osh] 8 [4isg] q 
+8 [ets] [Ouf] 3 7 
+W [OHa] 3 7 W 
+[4et] 8 [eyd] 8 [uf] 
+[4yd] [ts] [ep] e 8 [3yd] [ts] 
+[7yd] [ts] [Wyd] [ts] d 7 s t [yd] 3 [ts] [pj] W 
+7 [4et] 8 [eyd] 8 
+[uf] [4yd] [ts] [ep] e 8 [3y] d 
+[ts] [7yd] [ts] [Wyd] [ts] p 3 7 
+[ep] [We] [ep] [ts] 4 8 a [ek] 
+8 k p [4j] 8 u [ef] 8 y 
+[3d] f j W f d [3d] 
+7 [ep] W p p [ts] 4 8 a [ek] 
+p j 4 8 u [ef] 8 
+y [3d] f 7 j W f d 7 3 
+e e e t p [4is] s 8 s 
+s p e 8 p [is] 4 s 8 s s [ep] 
+8 p [30a] a 7 a a O W 7 O 
+[30ua] a 7 a a O W 7 O [4is] s 
+8 s s [ep] 8 p [4is] s 8 s s [ep] 
+8 p [30ua] a 7 a a [WO] 7 
+f f [Oa] 3 [Oa] 7 [Oaf] [Oaf] W 7 [4psj] 
+8 [sh] o 8 [4isg] 8 
+[ets] [Ouf] 3 7 W 
+[Oyd] 3 7 W [pj] 7 
+[4psj] 8 [sh] o 8 [4isg] 
+8 [ets] [up] r 
+[OH0ad] 
+[4et] 8 y [ed] 8 [uf] [4d] y 
+[ts] [ep] e 8 [3yd] [ts] d y 
+s t [Wyd] [ts] [yd] [ts] [yd] 3 [ts] [pj] W 
+7 [4et] 8 [eyd] 8 [uf] 
+[4yd] [ets] p e e 8 [3yd] [ts] 
+[yd] [ts] [Wyd] s j p 3 7 [ep] 
+[We] p t s 4 a [ek] 
+p j 4 8 u f e 8 y [3d] 
+f j W f d [3d] 7 
+[ep] [Wep] p t s 4 a k e 
+p [4j] 8 u [ef] x 8 
+y [3d] f j W f d 7 3 
+[7d] W d 7 [4sg] p 
+[esg] p 8 [4sg] [8p] [esj] 
+p 8 [3af] O 7 [Waf] O 7 [3f] 
+[0ua] [O7] [ad] O [4sg] [8p] 
+[sg] e [8p] [4sg] [8p] [esj] 
+[8p] [3af] 0 O 7 [Waf] O 
+[3ua] O 7 [Wad] 7 g 4 c 
+e 8 e 8 
+[ejb] 8 f [3x] 7 W 
+7 W 7 W 7 g [4c] 
+8 e 8 e 8 
+b j 8 b f [3x] 7 W 
+7 W 7 W 
+y 
+[3d] [ts] [yd] [ts] 
+[Wyd] [ts] [yd] s t [yd] 3 [ts] p W 
+7 [4et] [yd] e 8 [uf] 
+[4yd] t [ep] e 8 [3yd] [ts] [yd] 
+[ts] [Wyd] [ts] p j 3 7 [ep] [We] 
+p [ts] 4 8 [ey] d 8 
+[uf] [4yd] [ts] [ep] e 8 [3yd] 7 
+s t [7yd] [ts] [Wyd] [ts] [yd] 7 t s [yd] 3 [ts] [pj] 7 
+W 7 [et] 4 8 [eyd] 
+8 [uf] [yd] 4 [ts] [8ep] e 8 
+[3yd] s t d y t [Wyd] [ts] [pj] 7 3 
+7 [ep] [We] p t [4is] p [eis] 
+8 s [4is] q 8 s [eis] s [8s] 
+s [30ua] O [Wua] 0 7 3 
+7 O [WO] O [us] [4is] p 8 
+[is] e 8 s [4is] 8 s [is] e s 
+[8s] s [30ua] f j W f d ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nameless9000/RobloxPianoAutoplayer/main/script.lua"))()
+
+end)
+Section:NewButton("We The Kings", "Auto", function()
+ -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ s h f (i)  s h f (t) s h d (o) (o)
+s a s (i) s h f (t) s h d (o)...
+
+
+                                                            (e)         (e)     (q)            
+s f (t u o s o u) s d (r  y o d o y) s d f  d d s f d d s f d d s p (I)
+
+
+                                                            (e)         (e)     (q)            
+s f (t u o s o u) s d (r  y o d o y) s d f  d d s f d d s f d d s p (I)
+
+
+  (t)
+  (u)                                                                              (q)
+s s o s o s d f a (y o) a (o) s s d e (e) d d s d f d s d (e t i)...
+s h f (i) s h f (t) s h d (o) d s f (o)
+s h f (i) s h f (t) g f d (o) (o)
+s h f (i) s h f (t) s h d (o) d s f (o) d s
+
+
+    (t)                            (e)
+(i) s f d (o)...dddds...(t) ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nameless9000/RobloxPianoAutoplayer/main/script.lua"))()
+
+end)
